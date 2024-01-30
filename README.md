@@ -8,5 +8,5 @@ Previously it was written in very C looking C++ because i struggled with getting
 - Of course you can probably make it even smaller, im not an expert i just like to experiment, but im pretty happy with final product
 - The compiled binary should be cached in /tmp/ so that every time you execute the c file it does not compile it over and over again, but compile it once and for your entire session it should be stored in tmp folder
 
-  ## Usage
+## Usage
 So overall entire thing is inside that small 3.8KB c file, it might feel wrong to do but all you need to do is to execute it like so `./smoler_pong.c`, of course if it does not work or you are unable to do it, remember to give it executable flag with `chmod +x smoler_pong.c` that should do it. Of course you do need to have X11 installed to make it work, duh
